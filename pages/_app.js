@@ -1,7 +1,20 @@
-import '../styles/globals.css'
+import { useState } from 'react';
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+  const [isLoading, setIsLoading] = useState(false);
+  return (
+    <>
+      <Header />
+      <Component
+        {...pageProps}
+        isLoading={isLoading}
+        setIsLoading={setIsLoading}
+      />
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
