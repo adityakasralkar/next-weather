@@ -71,12 +71,12 @@ Run Project
 
 
 ## Project Photos : 
-     -- Landing Page : 
+ Landing Page : 
      ![1](https://user-images.githubusercontent.com/78255411/204322143-796f070e-dbba-4879-8d04-abf6b3718e57.png)
      
-     -- Weather Data Page : 
+ Weather Data Page : 
      ![2](https://user-images.githubusercontent.com/78255411/204322278-84d992fc-dfd1-4213-a69d-a5a2f076d008.png)
 
-     -- Error Page : 
+ Error Page : 
      ![3](https://user-images.githubusercontent.com/78255411/204322354-efa1bf48-8066-4ae8-a6f3-c9925f8d998e.png)
 
